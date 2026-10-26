@@ -12,6 +12,10 @@ udver: '2'
 * According to typographical rules, some punctuation marks (e.g., comma) are attached to a neighboring word,
   while others (e.g., the sentence-terminating danda) are not.
   We tokenize punctuation as separate tokens (words).
+* Multiword tokens (MWTs) are possible in Bengali, with the following as examples:
+  * Contractions of a finite verb and a negative adverb, e.g. করেনি _koreni_ ("did not do"), 
+    where করে and নি are the components, with the lemma কর and না respectively.
+  * Numeral classifier expressions such as দুইজন _duljon_ ("two person.CLF"), formed from দুই _dul_ and জন _jon_.
 
 ## Morphology
 
@@ -59,6 +63,8 @@ udver: '2'
   It occurs with the nominal words, i.e., [NOUN](), [PROPN](), [PRON]().
   The accusative form is also called objective and used in contexts where other languages would use a dative form.
   While the accusative form of personal pronouns is regularly used, for nouns (and especially inanimate nouns), the nominative form is often used also in object position.
+* Definite articles can be added in the form of the suffixes টা/টি _-ţa/ţi_ (singular) and গুলো/গুলি _-gulo/guli_ (plural).
+  These have [Definite]() value [Def]().
 
 ### Degree and Polarity
 
@@ -66,15 +72,16 @@ udver: '2'
 
 ### Verbal Features
 
-* Two participle types are distinguished by [Aspect](), either imperfective (`Imp`) or perfective (`Perf`).
-  `Aspect=Perf` is further used with finite verbs in the present perfect form.
-  Similarly, present continuous (progressive) finite forms will get `Aspect=Prog`.
+* [Aspect]() has three values: perfective (`Perf`), imperfective (`Imp`) and habitual (`Hab`)
+  The same are available in finite forms, though present continuous (progressive) finite forms 
+  will get `Aspect=Prog` rather than `Aspect=Imp`.
 * Finite verbs always have one of two values of [Mood](): `Ind` or `Imp`.
   The conditional mood `Cnd` is only used with the conditional participle.
 * Finite verbs distinguish the [Person]() of the subject but not its `Number`.
   Infinitives and participles do not distinguish `Person`.
 * Verbs in the indicative mood always have one of three values of [Tense](): `Past`, `Pres` or `Fut`.
 * There are two values of the [Voice]() feature: `Act` and `Pass`.
+* There are three values of the [Polite]() feature: `Form`, `Infm` and `Intm`.
 
 ### Pronouns, Determiners, Quantifiers
 
@@ -89,6 +96,9 @@ udver: '2'
 * Personal pronouns have up to three [Case]() forms: `Nom` (the base form), `Acc` (the objective form, also used in contexts where other languages use dative), and
   `Gen` (the genitive form).
   * There is no specific category of possessive pronouns. Instead, the genitive form of personal pronouns is used to encode possession.
+* [Polite]() is a lexical feature of personal pronouns. It has the values `Form`, `Infm` and `Intm`.
+* [Animacy]() is a lexical feature of personal pronouns that determines the declension strategies available.
+  It has the values `Anim` and `Inan`.
 
 ### Other Features
 
@@ -111,9 +121,22 @@ udver: '2'
 
 * In the present tense, simple juxtaposition of the subject and the nominal/adjectival predicate is used, without an overt copula.
 
+### Other relations
+
+* Noun classifiers are used in Bengali to count numbers of a noun. 
+  For example, "দুই_জন ছাত্র গল্প করছিল" *dul_jon chatro golpo chatril* ("two-CLF person chatting were_doing").
+  * If both the classifier and the counted object are present, the classifier 
+    (which is tagged as a [NOUN]()), is a [clf]() dependent of the numeral that precedes it.
+    The numeral is in turn a [det]() or [nummod]() dependent of what it counts.
+  * If only the numeral and the classifier are present, e.g. "দুই_জন গল্প করছিল" *dul_jon golpo chatril*,
+    then the classifier is promoted to the head of the nominal phrase, and the numeral is the dependent
+    of it with a [det]() or [nummod]() relation.
+
 ### Relations Overview
 
 * The following relation subtypes are used in Bengali:
+  * [compound:lvc]() for core semantic components of light verb compounds
+  * [compound:svc]() for verbs that are part of a serial verb compound
   * [nsubj:pass]() for nominal subjects of passive verbs
   * [csubj:pass]() for clausal subjects of passive verbs
   * [obl:agent]() for agents of passive verbs
