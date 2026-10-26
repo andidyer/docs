@@ -9,7 +9,7 @@ udver: '2'
 <tr>
   <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
   <td><a href="#Des">Des</a></td>
-  <td><a href="#Hrt">Hort</a></td>
+  <td><a href="#Hrt">Hrt</a></td>
   <td><a href="#Imp">Imp</a></td>
   <td><a href="#Ind">Ind</a></td>
   <td><a href="#Int">Int</a></td>
@@ -83,4 +83,4 @@ The jussive mood is used to express an authoritative or more formal command, req
 * _Kapiu matha dai_ "Start searching the place."
 
 
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:20:24 CET -->
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:00 CEST -->

@@ -59,4 +59,6 @@ obj(lasciato, cima)
 obj(cominciando, discesa)
 cc(cominciando, e)
 ~~~
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:21:35 CET -->
+[conj:reform](conj-reform) is used in KIParla, a corpus of spoken Italian, for reformulations of an expression.
+
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:54 CEST -->

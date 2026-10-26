@@ -5,9 +5,19 @@ shortdef: 'tense'
 udver: '2'
 ---
 
-Tense shows whether the time we are talking about is before, after, or at the same time as the moment of speech 
-(or a different, contextually salient reference time).
-Ruuli has distinct verbal templates for the present, past, and two future tenses.
+<table class="typeindex" border="1">
+<tr>
+  <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
+  <td><a href="#Fut">Fut</a></td>
+  <td><a href="#Nar">Nar</a></td>
+  <td><a href="#Past">Past</a></td>
+  <td><a href="#Pres">Pres</a></td>
+</tr>
+</table>
+
+
+Tense shows whether the time we are talking about is before, after, or at the same time as the moment of speech (or a different, contextually salient reference time).
+Ruuli distinguishes between the present, past, and two future tenses.
 
 In addition, Ruuli has the narrative prefix that is used for chaining consecutive clauses.
 The narrative cannot co-occur with tense or aspect marking; we treat it here as tense. 
@@ -50,3 +60,4 @@ The narrative prefix _ni-_ is used for clause chaining when describing consecuti
 #### Examples
 
 * _<b>ni</b>mwaba <b>ni</b>muloba_ "you go and trap / you went and trapped"
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:21 CEST -->

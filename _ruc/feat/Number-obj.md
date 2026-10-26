@@ -5,6 +5,15 @@ shortdef: 'number agreement with object'
 udver: '2'
 ---
 
+<table class="typeindex" border="1">
+<tr>
+  <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
+  <td><a href="#Plur">Plur</a></td>
+  <td><a href="#Sing">Sing</a></td>
+</tr>
+</table>
+
+
 The object marker on the verb reflects the number value of the object.
 
 ### <a name="Sing">`Sing`</a>: singular
@@ -42,3 +51,4 @@ Plural object prefixes include the first person plural _tu-_, second person plur
 * _mu<b>ba</b>yamba_<br>
   2pl.SBJ-**NC2.OBJ**-help<br>
   "you help them"
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:06 CEST -->

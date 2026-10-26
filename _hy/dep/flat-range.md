@@ -8,7 +8,7 @@ udver: '2'
 Armenian uses `flat:range` for numerical, spacial and time ranges.
 
 ~~~ conllu
-# visual-style 1 2 flat:range color:blue
+# visual-style 2 4 flat:range color:blue
 1	Երկու	երկու	NUM	_	NumForm=Word|NumType=Card	6	nummod	_	Translit=Erkow|LTranslit=erkow
 2	18	18	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	Translit=18|LTranslit=18|SpaceAfter=No
 3	-	֊	PUNCT	_	_	4	punct	_	Translit=-|LTranslit=-|SpaceAfter=No
@@ -68,4 +68,4 @@ When components are parties to a bilateral relationship, `flat` relation is used
 ~~~
 
 
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:21:57 CET -->
+<!-- Interlanguage links updated Út 30. června 2026, 11:00:11 CEST -->

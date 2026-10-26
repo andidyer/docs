@@ -7,38 +7,29 @@ udver: '2'
 
 The `nmod` relation is used for nominal dependents of another noun or noun phrase. We use the following language-specific subtypes:
 
-* `nmod`: noun modifier functionally corresponds to an attribute,
-* [nmod:poss](): noun modifier functionally corresponds to possessive complement,
-* [nmod:npmod](): noun phrase as nominal modifier.
+* `nmod`: a noun modifier that functionally corresponds to an attribute,
+* [nmod:poss](): a noun modifier that functionally corresponds to a possessive complement,
+* [nmod:npmod](): a noun phrase functioning as a nominal modifier.
 
-In Middle Armenian `nmod` is used:
+In Middle Armenian `nmod` is used for noun-noun modification with an attributive or associative relations between them: `nmod` nouns attached to nouns are usually in the nominative [Case]() and may precede or follow the modified noun. 
 
-* for noun-noun modification with an attributive or associative relations between them: `nmod` nouns attached to nouns are usually in the nominative [Case]() and may precede
-or follow the modified noun. 
-
-~~~ sdparse
-կաղնի /NOUN[Case=Nom] ծառ \n oak tree
-nmod(ծառ, կաղնի)
-nmod(tree, oak)
-~~~
-
-The `nmod` relation is further specified by the [case]() relation (associative modfication).
-
-~~~ sdparse
-արիւն ջուրի նման \n ariwn ǰowri nman \n blood like water
-nmod(արիւն, ջուրի)
-case(ջուրի, նման)
-nmod(blood, water)
-case(water, like)
-~~~
-
-
-Note, that so-called “bare noun compounds” (e.g. _թղթակից անդամ&nbsp;_ “corresponding member”) marked using the [compound]() relation.
-
-* for an explicative attribute of a noun or for noun modifier specifying the whole-part relation: a typical example is a title/profession attached to a name of a person. 
-The relation is similar to the [flat]() relation that links the first and the last name, but it is not labeled `flat` because the title is not part of the name:
-
-~~~ sdparse
+~~~ conllu
+# visual-style 2 1 nmod color:blue
+1	կաղնի	կաղնի	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	2	nmod	_	_
+2	ծառ	ծառ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	0	root	_	_
 
 ~~~
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:22:05 CET -->
+
+An `nmod` dependent may itself be modified by a case-marking element attached with the [case]() relation (associative modification).
+
+~~~ conllu
+# visual-style 2 1 nmod color:blue
+1	արիւն	արիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Coll	0	root	_	_
+2	ջուրի	ջուր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	1	nmod	_	_
+3	նման	նման	ADP	_	AdpType=Post	2	case	_	_
+
+~~~
+
+Note that so-called “bare noun compounds” are marked using the [compound]() relation.
+
+<!-- Interlanguage links updated Út 30. června 2026, 11:00:16 CEST -->

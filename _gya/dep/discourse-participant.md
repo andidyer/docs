@@ -9,9 +9,8 @@ In Gbaya, for reported speech, the quoted speech may begin with a mention of the
 Both speaker and addressee are analysed with a new relation called `discourse:participant`.
 
 ~~~ sdparse
-ʔá̰-nɛ̀ wà wàntò mɛ́ tɛ́-ʔɔ̀ díì \n 
-oui oui je prends le métro le matin à huit heures et demie \n Then, they [ask]: Wanto, where do you want to sleep?
+ʔá̰-nɛ̀ wà wàntò mɛ́ tɛ́-ʔɔ̀ díì \n Then, they [ask]: Wanto, where do you want to sleep?
 discourse:participant (tɛ́-ʔɔ̀, wà)
 ~~~
 
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:21:49 CET -->
+<!-- Interlanguage links updated Út 30. června 2026, 11:00:04 CEST -->

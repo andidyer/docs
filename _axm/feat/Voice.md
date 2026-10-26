@@ -27,56 +27,55 @@ By default, the finite and non-finite forms of verbs are labeled `Voice=Act`, ex
 
 #### Examples
 
-* _խօզըն ջօհար ե՞րբ <b>ճանչէ</b>_/_xòzën ǰòhar erb č̣ančē_ “When does a pig ever <b>recognize</b> a jewel?”
-* _գարի լուացած <b>ցամաքեցուր</b>_/_gari lowac’aç c’amak’ec’owr_ “Dry the washed barley” (but, _Գարին <b>ցամքեցաւ</b>_`Mid` “The barley <b>dried</b> up `Mid`”),
-* _զբիբսն <b>զօրացուցանէ</b>_/_zbibsn zòrac’owc’anē_ “(it) strengthens the pupils” (but, _յաղթէ զթագաւորն եւ <b>զօրանայ</b>_ `Mid` “He defeats the king and <b>grows strong</b> `Mid`”)
+* _խօզըն ջօհար ե՞րբ <b>ճանչէ</b>_/_xòzën ǰòhar erb <b>č̣ančē</b>_ “When does a pig ever <b>recognize</b> a jewel?”,
+* _գարի լուացած <b>ցամաքեցուր</b>_/_gari lowac’aç <b>c’amak’ec’owr</b>_ “<b>Dry</b> the washed barley” (but, _Գարին <b>ցամքեցաւ</b>_ `Mid` “The barley <b>dried up</b> `Mid`”),
+* _զբիբսն <b>զօրացուցանէ</b>_/_zbibsn <b>zòrac’owc’anē</b>_ “(it) <b>strengthens</b> the pupils” (but, _յաղթէ զթագաւորն եւ <b>զօրանայ</b>_ `Mid` “He defeats the king and <b>grows strong</b> `Mid`”).
   
 ### <a name="Pass">`Pass`</a>: passive voice
 
 The subject of the verb is affected by the action (patient). The doer (agent) is either a non-obligatory oblique phrase of the verb or not overtly expressed.
 
-The finite and non-finite forms of verbs are labeled `Voice=Pass` in the passive constructions. In this case, the verbs are marked with passive infixe _-ու- (-ւ-, -վ-)/-ow- (-w-, -v-)_ (for exceptions see below).
-Note that in Middle Armenian the passive meaning may sometimes lack a distinct morphological marker (particularly in the resultative participle), as in Classical Armenian. In such cases, passivity is inferred from the verb’s valency and the presence of an oblique agent.
+The finite and non-finite forms of verbs are labeled `Voice=Pass` in the passive constructions. In this case, the verbs are marked with the passive suffix _-ու- (-ւ-, -վ-)/-ow- (-w-, -v-)_ (for exceptions see below).
+Note that in Middle Armenian, the passive meaning may sometimes lack a distinct morphological marker (particularly in the resultative participle), as in Classical Armenian. In such cases, passivity is inferred from the verb’s valency and syntactic context, including the presence of an oblique agent when overtly expressed.
 
 #### Examples
 
-* _Եւ թէ <b>ուտուի</b>' աղեցն զեն է_/_Ew t’ē owtowi' aġec’n zen ē_ “If <b>eaten</b>, it is harmful to the intestines”,
-* _Եկեղեցին բարձր էր եւ լայն, Անսիւն <b>շինած</b> էր 'ւ անգերան_/_Ekeġec’in barjr ēr ew layn, Ansiwn šinaç ēr 'w angeran_ “The church was high and wide, <b>built</b> without columns and beams”,
-* _Վասն սըրբոց առաքելոցն, Որ ի քենէ են <b>ձեռնադրած</b>_/_Vasn sërboc’ aṙak’eloc’n, Or i k’enē en jeṙnadraç_ “For the holy apostles, Who <b>were ordained</b> by you”.
+* _Եւ թէ <b>ուտուի</b>' աղեցն զեն է_/_Ew t’ē <b>owtowi</b>' aġec’n zen ē_ “If <b>eaten</b>, it is harmful to the intestines”,
+* _Եկեղեցին բարձր էր եւ լայն, Անսիւն <b>շինած</b> էր 'ւ անգերան_/_Ekeġec’in barjr ēr ew layn, Ansiwn <b>šinaç</b> ēr 'w angeran_ “The church was high and wide, <b>built</b> without columns and beams”,
+* _Վասն սըրբոց առաքելոցն, Որ ի քենէ են <b>ձեռնադրած</b>_/_Vasn sërboc’ aṙak’eloc’n, Or i k’enē en <b>jeṙnadraç</b>_ “For the holy apostles, Who <b>were ordained</b> by you”.
 
 
 ### <a name="Mid">`Mid`</a>: middle voice
 
-Between active and passive. Needed also for the reflexive, traditionally called mediopassiv (for reciprocal verbs see below); in this case, the verbs are marked with passiv infix _-ու- (-ւ-, -վ-)/-ow- (-w-, -v-)_ (but the lemma is tagged as non-reflexive).
-
+The middle voice is situated between active and passive. It is also used for the reflexive verbs, traditionally called mediopassive (for reciprocal verbs see below); in this case, the verbs are marked with the passive suffix _-ու- (-ւ-, -վ-)/-ow- (-w-, -v-)_.
 
 #### Examples
 
-* _Ոնց որ լուսն լուսանայր, <b>բարձրանայի</b> բունս <b>մտնուի</b>_/_Onc’ or lowsn lowsanayr, barjranayi bowns mtnowi_ “Just as it would dawn, I would rise and enter my nest”,
-* _Թէ իրմով <b>լուացուին</b>, շատ քուն տա անել_/_T’ē irmov lowac’owin, šat k’own ta anel_ “If they wash themselves with it, it induces much sleep”,
-* _Որթն <b>բացւեալ</b> է տնկոյս_/_Ort’n bac’weal ē tnkoys_ “The vine of this sapling <b>has blossomed</b>”,
-* _սոքայ եխպայրք էին <b>բաժանված</b>_/_sok’ay expayrk’ ēin bažanvaç_ “They were separated brothers”,
+* _Ոնց որ լուսն լուսանայր, <b>բարձրանայի</b> բունս <b>մտնուի</b>_/_Onc’ or lowsn lowsanayr, <b>barjranayi</b> bowns <b>mtnowi</b>_ “Just as it would dawn, I would <b>rise</b> and <b>enter</b> my nest”,
+* _Թէ իրմով <b>լուացուին</b> շատ քուն տա անել_/_T’ē irmov <b>lowac’owin</b>, šat k’own ta anel_ “If they <b>wash themselves</b> with it, it induces much sleep”,
+* _Որթն <b>բացւեալ</b> է տնկոյս_/_Ort’n <b>bac’weal</b> ē tnkoys_ “The vine of this sapling <b>has blossomed</b>”,
+* _սոքայ եխպայրք էին <b>բաժանված</b>_/_sok’ay expayrk’ ēin <b>bažanvaç</b>_ “They were <b>separated</b> brothers”.
 
 ### <a name="Cau">`Cau`</a>: causative voice
 
-Note, that in Middle Armenian this is a feature of verbs. In causative constructions the subject is the entity “causing” the action. It is generally translated into English as ‘cause/make/have/let/allow’ someone to perform action described by the main verb. 
+In Middle Armenian, causative voice is a feature of verbs. In causative constructions, the subject is the entity that “causes” the action. It is generally translated into English as ‘cause/make/have/let/allow’ someone to perform the action described by the base verb. 
 
-The causative in Middle Armenian is expressed by both the Classical Armenain infix _-ուցան-_ and its phonologically altered new variant _-ցըն- (-ցն-)_. It is quite productive and can be used also for transitivisation of intransitive (middle voice) verbs. They will have `Voice=Act`, not `Voice=Cau` (e.g. _<b>սատակեցուցանել</b>/satakec’owc’anel_ “kill, annihilate”, _<b>շողցնել</b>/šoġc’nel</b>_ “to make shine”).
+The causative in Middle Armenian is expressed either by the Classical Armenian suffix _-ուցան-_/_-owc’an-_ or by its phonologically altered newer variant _-ցըն- (-ցն-)_/_-c’ën- (-c’n-)_. These markers are quite productive and may also derive transitive verbs from intransitive (middle-voice) verbs. Such verbs are tagged `Voice=Act`, not `Voice=Cau`, as they function as ordinary lexical transitive verbs rather than as causative constructions (e.g. _սատակեցուցանել_/_satakec’owc’anel_ “to kill, to annihilate” (from _սատկիլ_/_satkil_ “to die”), _շողցնել_/_šoġc’nel_ “to heat, to warm” (from _շողնալ_/_šoġnal_ “to get warm”)).
 
-Note, that the auxiliary _տալ/tal_ (in various tenses and moods) is accombined with infinitve of the content verb to construct the causative voice. Only the auxiliary will have `Voice=Cau`. There will be also voice information at the infinitive.
+In addition, the auxiliary _տալ_/_tal_ (in various tenses and moods) combines with the infinitive of the content verb to form a causative construction. Only the auxiliary is annotated with `Voice=Cau`; the infinitive retains its own voice annotation.
 
 #### Examples
 
-* _Եւ թէ ուտեցնես_ `Cau` _այլ օգտէ_/_Ew t’ē owtec’nes ayl ògtē_ “And if you <b>make (him/her) eat</b>, it will be even more beneficial”
-* _զկաթն կու պակսեցնէ_ `Act`/_zkat’n kow paksec’nē_ “It reduces the milk”,
+* _Եւ թէ <b>ուտեցնես</b>_ `Cau` _այլ օգտէ_/_Ew t’ē <b>owtec’nes</b> ayl ògtē_ “And if you <b>make (him/her) eat</b>, it will be even more beneficial”,
+* _զկաթն կու <b>պակսեցնէ</b>_ `Act`/_zkat’n kow <b>paksec’nē</b>_ “It <b>reduces</b> the milk”,
+* _զմեղապարտսն մէն <b>տայ</b>_ `Cau` _սպաննել_ `Act`/_zmeġapartsn mēn <b>tay</b> spannel_ “He only <b>has</b> the criminals killed”.
 
 ### <a name="Rcp">`Rcp`</a>: reciprocal voice
 
 A reciprocal verb describes an event in which two agents (or groups of agents) perform the same action upon each other.
-
-The reciprocal is expressed by the passiv infix _-ու- (-ւ-, -վ-)/-ow- (-w-, -v-)_ however, the verb roots that can become reciprocal is limited.
+The reciprocal is expressed by the passive suffix _-ու- (-ւ-, -վ-)/-ow- (-w-, -v-)_. However, the set of verb roots that can form reciprocals is limited.
 
 #### Examples
 
-* _...որ ունին զկապողութեան ուժն, եւ ունին զլուծման ուժն, եւ յիրար <b>խառնուեցան</b>_/_or ownin zkapoġowt’ean owžn, ew ownin zlowçman owžn, ew yirar xaṙnowec’an_ “...which possess the power of binding and the power of dissolving, and were <b>mixed together</b>”.
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:20:55 CET -->
+* _...որ ունին զկապողութեան ուժն, եւ ունին զլուծման ուժն, եւ յիրար <b>խառնուեցան</b>_/_or ownin zkapoġowt’ean owžn, ew ownin zlowçman owžn, ew yirar <b>xaṙnowec’an</b>_ “...which possess the power of binding and the power of dissolving, and which <b>mixed with each other</b>”.
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:23 CEST -->

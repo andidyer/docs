@@ -5,7 +5,7 @@ shortdef: 'flat multiword number'
 udver: '2'
 ---
 
-The `flat:num` subtype of the [flat]() relation is used to connect parts of a multiword numeral that are not linked by coordination.
+The `flat:num` subtype of the [flat]() relation is used to connect parts of a multiword numeral not linked by coordination.
 
 Elements that are connected by a conjunction are instead analyzed using [conj]() and [cc]().
 
@@ -20,3 +20,4 @@ flat:num(thousand, ninety)
 cc(seven, and)
 conj(thousand, seven)
 ~~~
+<!-- Interlanguage links updated Út 30. června 2026, 11:00:10 CEST -->

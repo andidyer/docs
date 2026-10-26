@@ -26,8 +26,8 @@ This feature  applies to Modern Greek [pronouns](el-pos/PRON),
 
 
 *	possessive pronouns: weak types, e.g., *μου* in *το σπίτι μου* / *to spiti mou* "my house"
-* reflexive pronouns: *εαυτός* / *eaftos* "self"
 *	relative pronouns <code>PronType=Rel</code>: *οποίος* / *opios* "who"
+*	Note that *εαυτός* / *eaftos* "self", traditionally described as a reflexive pronoun, is treated as a <code>NOUN</code> rather than a <code>PRON</code> in the GUD treebank, since it behaves semantically and morphosyntactically more like a noun than a pronoun. E.g. *Απλά να είσαι ο εαυτός σου" "Simply be your true self."
 
 
 ### <a name="Art">`Art`</a>: article
@@ -159,4 +159,4 @@ Pronouns never occur with the noun for which they stand and they cannot be repla
 
 
 
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:20:43 CET -->
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:14 CEST -->

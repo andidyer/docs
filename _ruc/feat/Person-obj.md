@@ -5,6 +5,16 @@ shortdef: 'person agreement with object'
 udver: '2'
 ---
 
+<table class="typeindex" border="1">
+<tr>
+  <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
+  <td><a href="#1">1</a></td>
+  <td><a href="#2">2</a></td>
+  <td><a href="#3">3</a></td>
+</tr>
+</table>
+
+
 The object prefix on the verb reflects the person value of the object.
 
 ### <a name="1">`1`</a>: first
@@ -49,3 +59,4 @@ The finer-grained value of this marker is annotated as [NounClass[obj]]().
 * _mu-<b>ba</b>-yamba_<br>
   2pl.SBJ-**NC2.OBJ**-help<br>
   "you help them"
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:10 CEST -->

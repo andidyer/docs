@@ -18,49 +18,51 @@ udver: '2'
 </table>
 
 This
-may be a lexical feature (some words-lemmas are archaic, some are
-colloquial) or a morphological feature (inflectional patterns may
-systematically change between dialects or styles).
+may be a lexical feature (some words-lemmas are archaic, some are colloquial) or a morphological feature (inflectional patterns may systematically change between dialects or styles).
 
 ### <a name="Arch">`Arch`</a>: archaic, obsolete
 
 #### Examples
 
-* _իւր/iwr, ի ձէնջ/i jēnǰ, ամենեցուն/amenec’own, երկոտասան/erkotasan_
+* _իւր_/_iwr_, _ի ձէնջ_/_i jēnǰ_, _ամենեցուն_/_amenec’own_, _երկոտասան_/_erkotasan_
 
 ### <a name="Rare">`Rare`</a>: rare
 
 #### Examples
 
-* _ջանջիլ/ǰanǰil, ջամբռլայ/ǰambṙlay_
+* _ջանջիլ_/_ǰanǰil_, _ջամբռլայ_/_ǰambṙlay_
 
 
 ### <a name="Vrnc">`Vrnc`</a>: vernacular
 
 #### Examples
 
-* _թեթենի/t’et’eni, առճ/aṙč̣, ղրաղ/ġraġ, տվել այ/tvel ay_
+* _թեթենի_/_t’et’eni_, _առճ_/_aṙč̣_, _ղրաղ_/_ġraġ_, _տվել այ_/_tvel ay_
 
 
 ### <a name="Expr">`Expr`</a>: expressive, emotional
 
 #### Examples
 
-Typical examples of expressive words in the Armenian data are diminutives:
+Typical examples of words with expressive or emotional coloring in Middle Armenian include diminutives and hypocoristic forms:
 
-* _ձայնիկ/jaynik, քաֆրիկ/k’afrik, պագիկ/pagik_
+
+* _ձայնիկ_/_jaynik_, _քաֆրիկ_/_k’afrik_, _պագիկ_/_pagik_
 
 
 ### <a name="Vulg">`Vulg`</a>: vulgar
 
 #### Examples
 
-* _գիճասեր/gič̣aser, գէշ/gēš, պոռնիկ/poṙnik, շանորդի/šanordi_
+* _գիճասեր_/_gič̣aser_, _գէշ_/_gēš_, _պոռնիկ_/_poṙnik_, _շանորդի_/_šanordi_
 
 
 ### <a name="Var">`Var`</a>: variant
 
+This value is used for variant forms of the same word.
+
 #### Examples
 
-* _դատւոր/դատուոր/datwor/datowor, թեպուր/թեփուր/t’epowr/t’ep’owr, մգռա/մքռա/mgṙa/mk’ṙa_
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:20:49 CET -->
+* _դատւոր, դատուոր_/_datwor, datowor_, _թեպուր, թեփուր_/_t’epowr, t’ep’owr_, _մգռա, մքռա_/_mgṙa, mk’ṙa_
+
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:19 CEST -->

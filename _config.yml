@@ -539,6 +539,56 @@ collections:
     output: true
   fsl:
     output: true
+  pi:
+    output: true
+  peh:
+    output: true
+  dta:
+    output: true
+  sce:
+    output: true
+  xal:
+    output: true
+  mjg:
+    output: true
+  mvf:
+    output: true
+  eve:
+    output: true
+  evn:
+    output: true
+  mnc:
+    output: true
+  gld:
+    output: true
+  neg:
+    output: true
+  oac:
+    output: true
+  ude:
+    output: true
+  ulc:
+    output: true
+  kfx:
+    output: true
+  ks:
+    output: true
+  ce:
+    output: true
+  txg:
+    output: true
+  mn:
+    output: true
+  ndi:
+    output: true
+  mbt:
+    output: true
+  hac:
+    output: true
+  ae:
+    output: true
+  kdn:
+    output: true
 # End of language collections (do not remove this comment, addlanguage.sh looks for it)
 
 

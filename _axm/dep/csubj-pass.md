@@ -7,14 +7,9 @@ udver: '2'
 
 A clausal passive subject is a clausal syntactic subject of a passive clause.
 
-~~~ sdparse
-csubj:pass()
-csubj:pass()
+~~~ conllu
+# visual-style 0 0 csubj:pass color:blue
+
 ~~~
 
-~~~ sdparse
-
-csubj:pass()
-csubj:pass()
-~~~
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:21:41 CET -->
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:57 CEST -->

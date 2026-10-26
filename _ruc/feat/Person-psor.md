@@ -5,6 +5,16 @@ shortdef: 'person value of the possessor'
 udver: '2'
 ---
 
+<table class="typeindex" border="1">
+<tr>
+  <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
+  <td><a href="#1">1</a></td>
+  <td><a href="#2">2</a></td>
+  <td><a href="#3">3</a></td>
+</tr>
+</table>
+
+
 In Ruuli, possessive pronouns agree both with the possessor and the possessee. 
 The possessor agreement is marked by the final morpheme of the possessive pronoun. 
 `Person[psor]` reflects the person value of the possessor.
@@ -51,3 +61,4 @@ The finer-grained value of this marker is annotated as [NounClass[psor]]().
 * _omwana wa-<b>bwe</b>_<br>
   NC1.child NC1.PSED-**NC2.PSOR**<br>
   "**their** child" 
+<!-- Interlanguage links updated Út 30. června 2026, 10:59:11 CEST -->

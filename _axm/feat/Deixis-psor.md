@@ -10,10 +10,12 @@ udver: '2'
   <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
   <td><a href="#Med">Med</a></td>
   <td><a href="#Prox">Prox</a></td>
+  <td><a href="#Remt">Remt</a></td>
 </tr>
 </table>
 
-Middle Armenian uses `Deixis[psor]` as layered feature for [NOUN]() to encode the position of an entity relative to either the speaker or the hearer.
+Middle Armenian uses `Deixis[psor]` as a layered feature for [NOUN](hy-pos/NOUN) to encode the position of an entity relative to the speaker or the hearer.
+Note that the subscript [psor] does not denote a possessor in this feature. It is adopted by analogy with Person[psor], because the same article morphemes in Middle Armenian serve demonstrative, person-indexing, and possessive functions. Their function can only be determined from the context.
 
 ### <a name="Prox">`Prox`</a>: proximal
 
@@ -34,4 +36,13 @@ The entity is neither close nor far away from the reference point (e.g., from th
 * _Յայդ դաշտէ<b>դ</b> ի վայր գայի անարատ սրտովս դեպ ի տուն/Yayd daštēd i vayr gayi anarat srtovs dep i town_ “From that field I was coming down, toward home with my pure heart”
 
 
-<!-- Interlanguage links updated St 12. listopadu 2025, 09:20:11 CET -->
+### <a name="Remt">`Remt`</a>: remote, distal
+
+The entity is far away from the reference point (e.g., from the speaker).
+
+#### Examples
+
+* _երբ այս ազգ օձս խայթէ զմարդն, նայ հանց ցաւէ խիստ, որ այլազգ օձոյն<b>ն</b> չցաւէ_/_erb ays azg òjs xayt’ē zmardn, nay hanc’ c’awē xist, or aylazg òjoynn čc’awē_ “When this kind of snake bites a man, it tends to hurt so intensely that the (bite) of other kinds of snakes does not hurt ([in such a way)”
+
+
+<!-- Interlanguage links updated Út 30. června 2026, 10:58:49 CEST -->
